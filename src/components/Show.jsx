@@ -19,7 +19,7 @@ const Show = (props) => {
           <button onClick={() => { deleteHandler(task.id) }}>Delete</button>
         </div>
       }) : (
-        <h1 className="mt-10 w-full text-center text-orange-600 text-3xl">
+        <h1>
           No Pending Tasks
         </h1>
       )}
