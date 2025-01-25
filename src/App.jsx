@@ -11,7 +11,7 @@ const App = () => {
   
 
   return (
-    <div>
+    <div className='flex flex-col items-center justify-center w-full h-[100vh]'>
       <Create tasks = {tasks} settasks= {settasks}/>
 
       <Show tasks = {tasks} settasks= {settasks}/>
